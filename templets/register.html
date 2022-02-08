@@ -1,0 +1,31 @@
+<DOCTYPE! html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Basic html layout example</title>
+</head>
+<body class="hello">
+  <header>
+    <h1> Register Page</h1>
+  </header>
+
+  <form class="ui form" action="/add" method="POST"  enctype = "multipart/form-data">
+    <div class="field">
+        <label>Email</label>
+        <input type="text" name="email" placeholder="email"><br>
+        <label>Password</label>
+        <input type="text" name="password" placeholder="password"><br>
+        <label>Description</label>
+        <input type="text" name="description" placeholder="description"><br>
+
+        <label>Image File </label>
+        <input type = "file" name = "file" />
+     
+    </div>
+    <button class="ui blue button" type="submit">Register</button>
+</form>
+
+
+  <a href="/"> Go to main page</a>
+</body>
+</html>

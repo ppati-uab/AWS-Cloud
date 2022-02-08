@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic html layout example</title>
+</head>
+<body class="hello">
+    <header>
+    <h1> File Uploader</h1>
+    </header>
+
+<h2> Select a file to upload </h2>
+<form class="ui form" action="/add" method="POST" enctype = "multipart/form-data">
+    <div class="field">
+        <label>Email1</label>
+        <input type="text" name="email_1" placeholder="email"><br>
+        <label>Email2</label>
+        <input type="text" name="email_2" placeholder="email"><br>
+        <label>Email3</label>
+        <input type="text" name="email_3" placeholder="email"><br>
+        <label>Email4</label>
+        <input type="text" name="email_4" placeholder="email"><br>
+        <label>Email5</label>
+        <input type="text" name="email_5" placeholder="email"><br>
+
+        <label>Select a File: </label>
+        <input type = "file" name = "file" />
+
+    </div>
+    <button class="ui blue button" type="submit">upload</button>
+
+</form>
+
+</body>
+</html>
+
